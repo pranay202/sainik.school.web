@@ -50,7 +50,7 @@ export default function AboutSection() {
           </div>
           <div className="relative">
             <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl bg-slate-200">
-              <div className="w-full h-full" style={{ backgroundImage: "url('/images/about.jpg')", backgroundSize: "cover", backgroundPosition: "center" }} />
+              <div className="w-full h-full" style={{ backgroundImage: "url('/about.jpeg')", backgroundSize: "cover", backgroundPosition: "center" }} />
             </div>
             <div className="absolute -bottom-10 -left-10 bg-emerald-900 border-4 border-white p-8 rounded-2xl shadow-xl hidden md:block">
               <p className="text-5xl font-extrabold text-amber-500 mb-2">10+</p>

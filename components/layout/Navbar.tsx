@@ -20,8 +20,13 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur supports-backdrop-filter:bg-white/60">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
-        <Link href="/" className="flex items-center space-x-2">
-          <span className="font-bold text-xl text-emerald-900 leading-tight">
+        <Link href="/" className="flex items-center space-x-3">
+          <img
+            src="/logo.png"
+            alt="Commando Academy Logo"
+            className="w-12 h-12 rounded-sm object-cover"
+          />
+          <span className="font-(family-name:--font-russo-one) text-2xl text-emerald-900 leading-tight uppercase tracking-wider relative top-px">
             Commando Academy
           </span>
         </Link>

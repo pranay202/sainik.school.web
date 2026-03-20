@@ -28,28 +28,37 @@ export default function RoutineSection() {
           </p>
         </div>
 
-        <div className="max-w-4xl mx-auto relative before:absolute before:inset-0 before:ml-5 md:before:mx-auto before:-translate-x-px md:before:translate-x-0 before:h-full before:w-1 before:bg-linear-to-b before:from-transparent before:via-emerald-200 before:to-transparent">
-          {routine.map((item, idx) => (
-            <div
-              key={idx}
-              className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group md:mx-auto w-full mb-8"
-            >
-              <div className="flex items-center justify-center w-10 h-10 rounded-full bg-emerald-100 border-4 border-white shadow-md text-emerald-600 shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 ml-0 z-10">
-                <Clock className="w-4 h-4" />
-              </div>
+        <div className="max-w-4xl mx-auto relative">
+          {/* Vertical Line */}
+          <div className="absolute left-8 md:left-1/2 top-0 bottom-0 w-1 -translate-x-1/2 bg-linear-to-b from-transparent via-emerald-200 to-transparent" />
 
-              <div className="w-[calc(100%-4rem)] md:w-[calc(50%-3rem)] bg-white p-6 rounded-xl border border-slate-200 shadow-sm group-hover:shadow-md transition-shadow group-hover:-translate-y-1 duration-300">
-                <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
-                  <h4 className="font-bold text-slate-900 text-lg">
-                    {item.activity}
-                  </h4>
-                  <span className="text-emerald-600 font-semibold shrink-0 sm:ml-4">
-                    {item.time}
-                  </span>
+          {routine.map((item, idx) => {
+            const isLeft = idx % 2 === 0;
+            return (
+              <div key={idx} className="relative flex w-full mb-8">
+                {/* Clock Icon */}
+                <div className="absolute top-3 left-8 md:left-1/2 transform -translate-x-1/2 w-12 h-12 rounded-full bg-emerald-100 border-4 border-white shadow-md text-emerald-600 flex items-center justify-center z-10">
+                  <Clock className="w-5 h-5" />
+                </div>
+
+                {/* Content Box */}
+                <div
+                  className={`w-[calc(100%-5rem)] ml-auto md:w-[calc(50%-3rem)] bg-white p-6 rounded-xl border border-slate-200 shadow-sm transition-all hover:shadow-md hover:-translate-y-1 duration-300 ${
+                    isLeft ? "md:mr-auto md:ml-0" : "md:ml-auto md:mr-0"
+                  }`}
+                >
+                  <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
+                    <h4 className="font-bold text-slate-900 text-lg">
+                      {item.activity}
+                    </h4>
+                    <span className="text-emerald-600 font-semibold shrink-0 sm:ml-4">
+                      {item.time}
+                    </span>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>

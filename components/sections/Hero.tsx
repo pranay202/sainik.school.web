@@ -7,23 +7,23 @@ export default function Hero() {
     <section className="relative w-full min-h-[90vh] flex items-center justify-center bg-slate-900 overflow-hidden">
       {/* Background Image Overlay */}
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40 mix-blend-overlay"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url('/images/hero-bg.jpg')",
-          backgroundColor: "#022c22",
+          backgroundImage: "url('/hero-bg.png')",
         }}
       />
-      <div className="absolute inset-0 bg-linear-to-t from-slate-950 via-transparent to-slate-900/50" />
+      <div className="absolute inset-0 bg-slate-950/60" />
+      <div className="absolute inset-0 bg-linear-to-t from-slate-950 via-emerald-950/40 to-transparent" />
 
       <div className="container relative z-10 px-4 pt-20 pb-16 md:pt-32 text-center flex flex-col items-center">
         <span className="inline-block py-1 px-3 rounded-full bg-emerald-900/50 text-emerald-400 text-sm font-semibold mb-6 border border-emerald-700/50 backdrop-blur-sm">
           Admissions Open 2024-25
         </span>
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-white tracking-tight mb-8 max-w-4xl drop-shadow-lg leading-tight">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-white tracking-tight mb-8 max-w-4xl leading-tight">
           Shape Your Destiny at{" "}
           <span className="text-emerald-500">Commando Academy</span>
         </h1>
-        <p className="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl drop-shadow">
+        <p className="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl">
           Premier coaching for Sainik School, NDA, and Maharashtra Police
           Bharti. We forge leaders with discipline, courage, and excellence.
         </p>
