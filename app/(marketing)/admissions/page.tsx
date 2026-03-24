@@ -1,8 +1,17 @@
+import AdmissionSection from "@/components/sections/AdmissionSection";
+import CoursesSection from "@/components/sections/CoursesSection";
+
 export default function AdmissionsPage() {
   return (
-    <div className="container mx-auto px-4 py-24 text-center min-h-[60vh] flex flex-col items-center justify-center">
-      <h1 className="text-4xl font-bold text-slate-900 mb-6">Admissions</h1>
-      <p className="text-xl text-slate-600 max-w-2xl">This is a placeholder for the Admissions page. The Homepage has been fully implemented as requested.</p>
+    <div className="flex flex-col w-full">
+      <div className="bg-emerald-900 py-16 text-center text-white">
+        <h1 className="text-4xl md:text-6xl font-bold mb-4">Admissions & Courses</h1>
+        <p className="text-emerald-100 text-lg max-w-2xl mx-auto px-4">
+          Explore our range of specialized training programs and secure your seat for the upcoming batch.
+        </p>
+      </div>
+      <CoursesSection />
+      <AdmissionSection />
     </div>
   );
 }
