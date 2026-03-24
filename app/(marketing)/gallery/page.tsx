@@ -1,50 +1,21 @@
 export default function GalleryPage() {
   const images = [
-    {
-      url: "https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=2132&auto=format&fit=crop",
-      title: "Morning Drill",
-      category: "Training"
-    },
-    {
-      url: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=2020&auto=format&fit=crop",
-      title: "Yoga Session",
-      category: "Physical"
-    },
-    {
-      url: "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?q=80&w=2070&auto=format&fit=crop",
-      title: "Classroom Coaching",
-      category: "Academic"
-    },
-    {
-      url: "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?q=80&w=1974&auto=format&fit=crop",
-      title: "Gymnasium",
-      category: "Facilities"
-    },
-    {
-      url: "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?q=80&w=2098&auto=format&fit=crop",
-      title: "Library Study",
-      category: "Academic"
-    },
-    {
-      url: "https://images.unsplash.com/photo-1574629810360-7efbbe195018?q=80&w=2076&auto=format&fit=crop",
-      title: "Sports Day",
-      category: "Sports"
-    },
-    {
-      url: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=2070&auto=format&fit=crop",
-      title: "Evening Parade",
-      category: "Training"
-    },
-    {
-      url: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=2022&auto=format&fit=crop",
-      title: "Graduation Ceremony",
-      category: "Events"
-    },
-    {
-      url: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?q=80&w=2070&auto=format&fit=crop",
-      title: "Mess Hall",
-      category: "Life at Campus"
-    }
+    { url: "/gallary/1.jpeg", title: "Morning Drill", category: "Training" },
+    { url: "/gallary/2.jpeg", title: "Yoga Session", category: "Physical" },
+    { url: "/gallary/3.jpeg", title: "Classroom Coaching", category: "Academic" },
+    { url: "/gallary/4.jpeg", title: "Gymnasium", category: "Facilities" },
+    { url: "/gallary/5.jpeg", title: "Library Study", category: "Academic" },
+    { url: "/gallary/6.jpeg", title: "Sports Day", category: "Sports" },
+    { url: "/gallary/7.jpeg", title: "Evening Parade", category: "Training" },
+    { url: "/gallary/8.jpeg", title: "Graduation Ceremony", category: "Events" },
+    { url: "/gallary/9.jpeg", title: "Mess Hall", category: "Life at Campus" },
+    { url: "/gallary/10.jpeg", title: "Campus Activity", category: "Events" },
+    { url: "/gallary/11.jpeg", title: "Cadet Life", category: "Campus Life" },
+    { url: "/gallary/12.jpeg", title: "Training Exercise", category: "Training" },
+    { url: "/gallary/13.jpeg", title: "Sports Competition", category: "Sports" },
+    { url: "/gallary/14.jpeg", title: "Academic Excellence", category: "Academic" },
+    { url: "/gallary/15.jpeg", title: "Campus Facilities", category: "Facilities" },
+    { url: "/gallary/16.jpeg", title: "Student Activities", category: "Campus Life" }
   ];
 
   return (
