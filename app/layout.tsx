@@ -34,11 +34,12 @@ export default function RootLayout({
     <html
       lang="en"
       className={`scroll-smooth ${inter.variable} ${montserrat.variable} ${russoOne.variable}`}
+      suppressHydrationWarning
     >
       <head>
         <JsonLd />
       </head>
-      <body className="font-sans antialiased min-h-screen flex flex-col bg-slate-50 text-slate-900">
+      <body className="font-sans antialiased min-h-screen flex flex-col bg-slate-50 text-slate-900" suppressHydrationWarning>
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />

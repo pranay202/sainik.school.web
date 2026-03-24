@@ -2,7 +2,7 @@ export default function GalleryPage() {
   const images = [
     { url: "/gallary/1.jpeg", title: "Morning Drill", category: "Training" },
     { url: "/gallary/2.jpeg", title: "Yoga Session", category: "Physical" },
-    { url: "/gallary/3.jpeg", title: "Classroom Coaching", category: "Academic" },
+    // { url: "/gallary/3.jpeg", title: "Classroom Coaching", category: "Academic" },
     { url: "/gallary/4.jpeg", title: "Gymnasium", category: "Facilities" },
     { url: "/gallary/5.jpeg", title: "Library Study", category: "Academic" },
     { url: "/gallary/6.jpeg", title: "Sports Day", category: "Sports" },
