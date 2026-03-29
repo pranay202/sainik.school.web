@@ -21,7 +21,7 @@ export default function Hero() {
         </span>
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-white tracking-tight mb-8 max-w-4xl leading-tight">
           Shape Your Destiny at{" "}
-          <span className="text-emerald-500">Commando Academy</span>
+          <span className="text-emerald-500">Commando Academy Sainik Shool</span>
         </h1>
         <p className="text-lg md:text-xl text-slate-300 mb-10 max-w-2xl">
           Premier coaching for Sainik School, NDA, and Maharashtra Police

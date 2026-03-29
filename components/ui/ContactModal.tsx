@@ -4,6 +4,7 @@ import { X, Send, Phone, MapPin, Mail } from "lucide-react";
 import { Button } from "./Button";
 import { Input } from "./Input";
 import { useState, useEffect } from "react";
+import { siteConfig } from "@/lib/constants";
 
 interface ContactModalProps {
   isOpen: boolean;
@@ -103,7 +104,7 @@ export function ContactModal({ isOpen, onClose }: ContactModalProps) {
                   id="modal-phone"
                   type="tel"
                   required
-                  placeholder="+91 98765 43210"
+                  placeholder={"91 xxxxx xxxxx"}
                   className="h-12"
                 />
               </div>
@@ -134,11 +135,11 @@ export function ContactModal({ isOpen, onClose }: ContactModalProps) {
           <div className="mt-8 pt-8 border-t border-slate-100 grid grid-cols-1 gap-4">
             <div className="flex items-center gap-3 text-sm text-slate-600">
               <Phone className="w-5 h-5 text-emerald-600" />
-              <span>+91 98765 43210</span>
+              <span>{siteConfig.contact.phone}</span>
             </div>
             <div className="flex items-center gap-3 text-sm text-slate-600">
               <MapPin className="w-5 h-5 text-emerald-600" />
-              <span>Nagpur Road, Kelwad, Maharashtra</span>
+              <span>{siteConfig.contact.address}</span>
             </div>
           </div>
         </div>

@@ -1,21 +1,22 @@
 export default function GalleryPage() {
   const images = [
-    { url: "/gallary/1.jpeg", title: "Morning Drill", category: "Training" },
-    { url: "/gallary/2.jpeg", title: "Yoga Session", category: "Physical" },
-    // { url: "/gallary/3.jpeg", title: "Classroom Coaching", category: "Academic" },
-    { url: "/gallary/4.jpeg", title: "Gymnasium", category: "Facilities" },
-    { url: "/gallary/5.jpeg", title: "Library Study", category: "Academic" },
-    { url: "/gallary/6.jpeg", title: "Sports Day", category: "Sports" },
-    { url: "/gallary/7.jpeg", title: "Evening Parade", category: "Training" },
-    { url: "/gallary/8.jpeg", title: "Graduation Ceremony", category: "Events" },
-    { url: "/gallary/9.jpeg", title: "Mess Hall", category: "Life at Campus" },
-    { url: "/gallary/10.jpeg", title: "Campus Activity", category: "Events" },
-    { url: "/gallary/11.jpeg", title: "Cadet Life", category: "Campus Life" },
-    { url: "/gallary/12.jpeg", title: "Training Exercise", category: "Training" },
-    { url: "/gallary/13.jpeg", title: "Sports Competition", category: "Sports" },
-    { url: "/gallary/14.jpeg", title: "Academic Excellence", category: "Academic" },
-    { url: "/gallary/15.jpeg", title: "Campus Facilities", category: "Facilities" },
-    { url: "/gallary/16.jpeg", title: "Student Activities", category: "Campus Life" }
+    // { url: "/gallary/1.jpeg", title: "", category: "" },
+    // { url: "/gallary/2.jpeg", title: "", category: "" },
+    // { url: "/gallary/3.jpeg", title: "", category: "" },
+    { url: "/gallary/4.jpeg", title: "", category: "" },
+    { url: "/gallary/5.jpeg", title: "", category: "" },
+    // { url: "/gallary/6.jpeg", title: "", category: "" },
+    { url: "/gallary/7.jpeg", title: "", category: "" },
+    // { url: "/gallary/8.jpeg", title: "", category: "" },
+    { url: "/gallary/9.jpeg", title: "", category: "" },
+    { url: "/gallary/10.jpeg", title: "", category: "" },
+    { url: "/gallary/11.jpeg", title: "", category: "" },
+    { url: "/gallary/12.jpeg", title: "", category: "" },
+    { url: "/gallary/13.jpeg", title: "", category: "" },
+    { url: "/gallary/14.jpeg", title: "", category: "" },
+    { url: "/gallary/17.jpg", title: "", category: "" },
+    { url: "/gallary/16.jpeg", title: "", category: "" },
+    { url: "/gallary/15.jpeg", title: "", category: "" },
   ];
 
   return (
@@ -27,7 +28,7 @@ export default function GalleryPage() {
         </h1>
         <div className="w-20 h-1.5 bg-amber-500 mx-auto rounded-full mb-6" />
         <p className="text-emerald-100 text-lg max-w-2xl mx-auto px-4">
-          A glimpse into the life, training, and achievements of our cadets at Commando Academy.
+          A glimpse into the life, training, and achievements of our cadets at Commando Academy Sainik Shool.
         </p>
       </div>
 

@@ -27,13 +27,9 @@ export default function AboutPage() {
             <div className="order-2 lg:order-1">
               <div className="rounded-2xl overflow-hidden shadow-2xl bg-white p-2">
                 <img 
-                  src="/history.jpeg" 
+                  src="/about-2.jpeg" 
                   alt="Our History" 
                   className="w-full aspect-video object-cover rounded-xl"
-                  onError={(e) => {
-                    const target = e.target as HTMLImageElement;
-                    target.src = "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=2070&auto=format&fit=crop";
-                  }}
                 />
               </div>
             </div>

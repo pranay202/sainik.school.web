@@ -16,7 +16,7 @@ export default function Home() {
       <CoursesSection />
       <RoutineSection />
       <FacilitiesSection />
-      <ResultsSection />
+      {/* <ResultsSection /> */}
       <TestimonialSection />
       <AdmissionSection />
       <ContactSection />

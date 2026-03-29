@@ -5,7 +5,7 @@ export const testimonials: Testimonial[] = [
     id: "1",
     name: "Ramesh Patil",
     role: "Parent",
-    content: "My son secured admission in Sainik School Satara after 1 year of rigorous coaching at Commando Academy. The dedication of the staff is unparalleled.",
+    content: "My son secured admission in Sainik School Satara after 1 year of rigorous coaching at Commando Academy Sainik Shool. The dedication of the staff is unparalleled.",
     rating: 5,
   },
   {

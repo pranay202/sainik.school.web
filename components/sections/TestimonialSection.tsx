@@ -10,7 +10,7 @@ export default function TestimonialSection() {
           <h2 className="text-3xl md:text-4xl font-bold text-slate-950 mb-4">Words from Parents & Cadets</h2>
           <div className="w-20 h-1.5 bg-emerald-600 mx-auto rounded-full mb-6" />
           <p className="text-lg text-slate-600">
-            Don't just take our word for it. Hear from those who have experienced the Commando Academy difference.
+            Don't just take our word for it. Hear from those who have experienced the Commando Academy Sainik Shool difference.
           </p>
         </div>
 

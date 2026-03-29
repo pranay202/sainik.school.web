@@ -11,9 +11,9 @@ export const siteConfig: SiteConfig = {
     instagram: "https://instagram.com/commandoacademy",
   },
   contact: {
-    email: "admissions@commandoacademy.in",
-    phone: "+91-9876543210",
-    whatsapp: "919876543210",
+    email: "cammandoarmypoliceacademy@gmail.com",
+    phone: "+91 95297 88084",
+    whatsapp: "+919529788084",
     address: "Kelwad, Nagpur, Maharashtra, India",
   },
 };

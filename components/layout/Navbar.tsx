@@ -36,14 +36,19 @@ export default function Navbar() {
           <Link href="/" className="flex items-center space-x-3">
             <img
               src="/logo.png"
-              alt="Commando Academy Logo"
+              alt="Commando Academy Sainik Shool Logo"
               className="w-12 h-12 rounded-sm object-cover"
             />
-            <span className="font-(family-name:--font-russo-one) text-2xl text-emerald-900 leading-tight uppercase tracking-wider relative top-px">
-              Commando Academy
+            <p className="flex flex-col h-[100%]">
+            <span className="font-(family-name:--font-russo-one) text-base text text-emerald-900 leading-tight uppercase tracking-wider relative top-px">
+              Commando Academy 
             </span>
+            <span className="font-(family-name:--font-russo-one) text-[8px] text-emerald-900 leading-tight uppercase tracking-wider relative top-px">
+              Commando Academy Sainik Shool
+            </span>
+          </p>
           </Link>
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden lg:flex items-center space-x-4 xl:space-x-8">
             {routes.map((route) => (
               <Link
                 key={route.path}
@@ -69,7 +74,7 @@ export default function Navbar() {
             </Button>
           </nav>
           <button
-            className="md:hidden p-2 text-slate-700 focus:outline-none"
+            className="lg:hidden p-2 text-slate-700 focus:outline-none"
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -78,7 +83,7 @@ export default function Navbar() {
 
         {/* Mobile Menu */}
         {isOpen && (
-          <div className="md:hidden border-t bg-white px-4 py-4 space-y-4 shadow-lg absolute w-full left-0">
+          <div className="lg:hidden border-t bg-white px-4 py-4 space-y-4 shadow-lg absolute w-full left-0">
             {routes.map((route) => (
               <Link
                 key={route.path}
