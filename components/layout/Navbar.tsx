@@ -36,7 +36,7 @@ export default function Navbar() {
           <Link href="/" className="flex items-center space-x-3">
             <img
               src="/logo.png"
-              alt="Commando Academy Sainik Shool Logo"
+              alt="Commando Academy Sainik School Logo"
               className="w-12 h-12 rounded-sm object-cover"
             />
             <p className="flex flex-col h-[100%]">
@@ -44,7 +44,7 @@ export default function Navbar() {
               Commando Academy 
             </span>
             <span className="font-(family-name:--font-russo-one) text-[8px] text-emerald-900 leading-tight uppercase tracking-wider relative top-px">
-              Commando Academy Sainik Shool
+              Commando Academy Sainik School
             </span>
           </p>
           </Link>

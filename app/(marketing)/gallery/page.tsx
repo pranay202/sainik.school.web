@@ -28,7 +28,7 @@ export default function GalleryPage() {
         </h1>
         <div className="w-20 h-1.5 bg-amber-500 mx-auto rounded-full mb-6" />
         <p className="text-emerald-100 text-lg max-w-2xl mx-auto px-4">
-          A glimpse into the life, training, and achievements of our cadets at Commando Academy Sainik Shool.
+          A glimpse into the life, training, and achievements of our cadets at Commando Academy Sainik School.
         </p>
       </div>
 

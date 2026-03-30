@@ -3,23 +3,23 @@ import { Testimonial } from "@/types";
 export const testimonials: Testimonial[] = [
   {
     id: "1",
-    name: "Ramesh Patil",
+    name: "Renuka Mahore",
     role: "Parent",
-    content: "My son secured admission in Sainik School Satara after 1 year of rigorous coaching at Commando Academy Sainik Shool. The dedication of the staff is unparalleled.",
+    content: "Best academy and best training physical classes all is so good, many students joined defence",
     rating: 5,
   },
   {
     id: "2",
-    name: "Siddhant Sharma",
+    name: "Saloni Ghorse",
     role: "NDA Aspirant",
-    content: "The physical training and daily routine instilled discipline in me that I never had. The faculty for written exams is top notch.",
+    content: "I love this academy it is so good and and best training centre in nagpur I am form madhya pradesh but I'm presently get training in this academy.",
     rating: 5,
   },
   {
     id: "3",
-    name: "Pooja Jadhav",
-    role: "Police Bharti Cadet",
-    content: "I achieved full marks in physical tests thanks to the relentless ground training provided here.",
+    name: "Himanshu Nety",
+    role: "Territorial Army Aspirant",
+    content: "Jai hind sir I got TA from this academy, it is a very good academy and such a good training and coaching centre in Nagpur Jai hind.",
     rating: 5,
   }
 ];

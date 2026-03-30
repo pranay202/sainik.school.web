@@ -26,7 +26,7 @@ export default function AdmissionSection() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="text-white">
             <span className="inline-block py-1 px-3 rounded-full bg-amber-500/20 text-amber-500 text-sm font-bold mb-4">Limited Seats Available</span>
-            <h2 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">Secure Your Future with Commando Academy Sainik Shool</h2>
+            <h2 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">Secure Your Future with Commando Academy Sainik School</h2>
             <div className="w-20 h-1.5 bg-amber-500 mb-8 rounded-full" />
             <p className="text-lg text-emerald-100 mb-8 leading-relaxed">
               Admission for the upcoming batch is now open. Apply online to book your seat. Our representatives will contact you shortly with the next steps for enrollment.

@@ -19,7 +19,7 @@ export default function RoutineSection() {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-950 mb-4">
-            A Day at Commando Academy Sainik Shool
+            A Day at Commando Academy Sainik School
           </h2>
           <div className="w-20 h-1.5 bg-emerald-600 mx-auto rounded-full mb-6" />
           <p className="text-lg text-slate-600">
